@@ -1,0 +1,33 @@
+<div>
+    <div>
+        Name: <input type="text-area" [(ngModel)]="name"/>
+        Description: <input type="text-area" [(ngModel)]="description"/>
+    </div>
+    <div>
+        <h3>Name:</h3>
+        <p>{{ name }}</p>
+        <h3>Description:</h3>
+        <p>{{ description }}</p>
+    </div>
+    <div>
+        <button (click)="createTodo()">Create Todo</button>
+    </div>
+</div>
+
+=================================================================
+
+<div>
+    <h3>HTTP Tester</h3>
+    <div>
+        <div>
+            HttpEndpoint: <input type="text-area" [(ngModel)]="httpEndpoint"/>
+        </div>
+    </div>
+    <div>
+        <button (click)="callHttpEndpoint()">Call HTTP Endpoint</button>
+    </div>
+    <div>
+        {{ httpEndpointResult }}
+    </div>
+</div>
+
