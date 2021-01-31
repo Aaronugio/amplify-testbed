@@ -34,7 +34,4 @@ export class CognitoComponent implements OnInit {
     });
   }
   
-  public FederatedResignIn
-
-
 }
