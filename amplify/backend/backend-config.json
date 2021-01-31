@@ -1,6 +1,12 @@
 {
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
+  },
   "api": {
-    "testbedapi": {
+    "testbed": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {

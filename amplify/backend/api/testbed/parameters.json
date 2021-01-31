@@ -1,5 +1,5 @@
 {
-  "AppSyncApiName": "testbedapi",
+  "AppSyncApiName": "testbed",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false
 }

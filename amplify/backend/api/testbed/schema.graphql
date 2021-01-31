@@ -1,4 +1,4 @@
-type Blog @model @searchable{
+type Blog @model {
   id: ID!
   name: String!
   posts: [Post] @connection(keyName: "byBlog", fields: ["id"])
